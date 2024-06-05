@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan de Estudio: Data Science y AI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Plan de Estudio: Data Science y AI</h1>
+        <div id="study-plan">
+            <!-- Fase 1: Fundamentos de Data Science -->
+            <div class="phase">
+                <h2 onclick="toggleVisibility('phase1')">Fase 1: Fundamentos de Data Science</h2>
+                <div id="phase1" class="topics">
+                    <!-- Matemáticas y Estadística -->
+                    <div class="topic">
+                        <h3 onclick="toggleVisibility('math')">Matemáticas y Estadística (60 horas)</h3>
+                        <ul id="math" class="subtopics">
+                            <li><input type="checkbox"> Essential Math for Data Science - Thomas Nield (10 horas)</li>
+                            <li><input type="checkbox"> Mathematics for Machine Learning - Marc Peter Deisenroth (20 horas)</li>
+                            <li><input type="checkbox"> Naked Statistics - Charles Wheelan (10 horas)</li>
+                            <li><input type="checkbox"> Introduction to Probability - Joseph K. Blitzstein (20 horas)</li>
+                            <li><input type="checkbox"> Practical Statistics for Data Scientists - Peter Bruce, Andrew Bruce (10 horas)</li>
+                            <li><input type="checkbox"> Statistics All-in-One For Dummies - Deborah J. Rumsey (10 horas)</li>
+                            <li><input type="checkbox"> Bayesian Methods for Hackers - Cameron Davidson-Pilon (20 horas)</li>
+                            <li><input type="checkbox"> Think Stats - Allen B. Downey (10 horas)</li>
+                            <li><input type="checkbox"> Head First Statistics - Dawn Griffiths (20 horas)</li>
+                            <li><input type="checkbox"> Probability for Machine Learning - Jason Brownlee (20 horas)</li>
+                        </ul>
+                    </div>
+                    <!-- Programación en Python -->
+                    <div class="topic">
+                        <h3 onclick="toggleVisibility('python')">Programación en Python (50 horas)</h3>
+                        <ul id="python" class="subtopics">
+                            <li><input type="checkbox"> Python Crash Course - Eric Matthes (10 horas)</li>
+                            <li><input type="checkbox"> Automate the Boring Stuff with Python - Al Sweigart (10 horas)</li>
+                            <li><input type="checkbox"> Fluent Python - Luciano Ramalho (10 horas)</li>
+                            <li><input type="checkbox"> Python for Data Analysis - Wes McKinney (10 horas)</li>
+                            <li><input type="checkbox"> Python Data Science Handbook - Jake VanderPlas (10 horas)</li>
+                            <li><input type="checkbox"> Learning Python - Mark Lutz (20 horas)</li>
+                            <li><input type="checkbox"> Python Cookbook - David Beazley, Brian K. Jones (20 horas)</li>
+                            <li><input type="checkbox"> Effective Python - Brett Slatkin (10 horas)</li>
+                            <li><input type="checkbox"> Python Tricks - Dan Bader (10 horas)</li>
+                            <li><input type="checkbox"> Head First Python - Paul Barry (10 horas)</li>
+                        </ul>
+                    </div>
+                    <!-- Manipulación y Análisis de Datos -->
+                    <div class="topic">
+                        <h3 onclick="toggleVisibility('data-analysis')">Manipulación y Análisis de Datos (40 horas)</h3>
+                        <ul id="data-analysis" class="subtopics">
+                            <li><input type="checkbox"> Data Wrangling with Python - Jacqueline Kazil, Katharine Jarmul (10 horas)</li>
+                            <li><input type="checkbox"> Pandas for Data Analysis - Daniel Y. Chen (10 horas)</li>
+                            <li><input type="checkbox"> Data Science from Scratch - Joel Grus (10 horas)</li>
+                            <li><input type="checkbox"> Data Visualization with Python - Jack Dougherty, Ilya Ilyankou (10 horas)</li>
+                            <li><input type="checkbox"> Python for Data Science Handbook - Jake VanderPlas (10 horas)</li>
+                            <li><input type="checkbox"> Data Science for Business - Foster Provost, Tom Fawcett (15 horas)</li>
+                            <li><input type="checkbox"> Practical Data Science with R - Nina Zumel, John Mount (20 horas)</li>
+                            <li><input type="checkbox"> Data Smart - John W. Foreman (15 horas)</li>
+                            <li><input type="checkbox"> Data Science for Dummies - Lillian Pierson (10 horas)</li>
+                            <li><input type="checkbox"> Python Data Science Essentials - Alberto Boschetti, Luca Massaron (10 horas)</li>
+                        </ul>
+                    </div>
+                    <!-- Machine Learning Básico -->
+                    <div class="topic">
+                        <h3 onclick="toggleVisibility('ml-basics')">Machine Learning Básico (50 horas)</h3>
+                        <ul id="ml-basics" class="subtopics">
+                            <li><input type="checkbox"> Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow - Aurélien Géron (10 horas)</li>
+                            <li><input type="checkbox"> Introduction to Machine Learning with Python - Andreas C. Müller, Sarah Guido (10 horas)</li>
+                            <li><input type="checkbox"> Machine Learning Yearning - Andrew Ng (10 horas)</li>
+                            <li><input type="checkbox"> Deep Learning with Python - François Chollet (10 horas)</li>
+                            <li><input type="checkbox"> Deep Learning - Ian Goodfellow, Yoshua Bengio, Aaron Courville (10 horas)</li>
+                            <li><input type="checkbox"> Machine Learning for Absolute Beginners - Oliver Theobald (10 horas)</li>
+                            <li><input type="checkbox"> Machine Learning: A Probabilistic Perspective - Kevin P. Murphy (20 horas)</li>
+                            <li><input type="checkbox"> Python Machine Learning - Sebastian Raschka, Vahid Mirjalili (10 horas)</li>
+                            <li><input type="checkbox"> Pattern Recognition and Machine Learning - Christopher M. Bishop (25 horas)</li>
+                            <li><input type="checkbox"> Applied Predictive Modeling - Max Kuhn, Kjell Johnson (20 horas)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Fase 2: Avanzando en Data Science -->
+            <div class="phase">
+                <h2 onclick="toggleVisibility('phase2')">Fase 2: Avanzando en Data Science</h2>
+                <div id="phase2" class="topics">
+                    <!-- Deep Learning -->
+                    <div class="topic">
+                        <h3 onclick="toggleVisibility('deep-learning')">Deep Learning (60 horas)</h3>
+                        <ul id="deep-learning" class="subtopics">
+                            <li><input type="checkbox"> Hands-On Deep Learning with PyTorch - Franklyn M. Atienza (10 horas)</li>
+                            <li><input type="checkbox"> Deep Learning for Coders with Fastai and PyTorch - Jeremy Howard, Sylvain Gugger (10 horas)</li>
+                            <li><input type="checkbox"> TensorFlow for Deep Learning - Bharath Ramsundar, Reza Bosagh Zadeh (10 horas)</li>
+                            <li><input type="checkbox"> PyTorch Pocket Reference - Joe Papa (10 horas)</li>
+                            <li><input type="checkbox"> Learning TensorFlow.js - Gant Laborde (10 horas)</li>
+                            <li><input type="checkbox"> Deep Learning with PyTorch Step-by-Step - Daniel Voigt Godoy (10 horas)</li>
+                            <li><input type="checkbox"> Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow - Aurélien Géron (10 horas)</li>
+                            <li><input type="checkbox"> Deep Reinforcement Learning Hands-On - Maxim Lapan (10 horas)</li>
+                            <li><input type="checkbox"> Applied Deep Learning - Umberto Michelucci (10 horas)</li>
+                            <li><input type="checkbox"> Deep Learning with Python - François Chollet (10 horas)</li>
+                        </ul>
+                    </div>
+                    <!-- Herramientas y Frameworks -->
+                    <div class="topic">
+                        <h3 onclick="toggleVisibility('tools')">Herramientas y Frameworks (40 horas)</h3>
+                        <ul id="tools" class="subtopics">
+                            <li><input type="checkbox"> TensorFlow for Deep Learning - Bharath Ramsundar, Reza Bosagh Zadeh (10 horas)</li>
+                            <li><input type="checkbox"> PyTorch Pocket Reference - Joe Papa (10 horas)</li>
+                            <li><input type="checkbox"> Learning TensorFlow.js - Gant Laborde (10 horas)</li>
+                            <li><input type="checkbox"> Practical Machine Learning with Python - Tarek Amr, Sudharsan Ravichandiran (10 horas)</li>
+                            <li><input type
+="checkbox"> Machine Learning with TensorFlow - Nishant Shukla (10 horas)</li>
+                            <li><input type="checkbox"> Mastering Machine Learning with Scikit-learn - Gavin Hackeling (10 horas)</li>
+                            <li><input type="checkbox"> Learning PyTorch - Joe Papa (10 horas)</li>
+                            <li><input type="checkbox"> Deep Learning for JavaScript Developers - Aitor Alvarez (10 horas)</li>
+                            <li><input type="checkbox"> TensorFlow 2.0 Quick Start Guide - Tony Holdroyd (10 horas)</li>
+                            <li><input type="checkbox"> Building Machine Learning Systems with Python - Willi Richert, Luis Pedro Coelho (10 horas)</li>
+                        </ul>
+                    </div>
+                    <!-- Proyectos Prácticos -->
+                    <div class="topic">
+                        <h3 onclick="toggleVisibility('projects')">Proyectos Prácticos (60 horas)</h3>
+                        <ul id="projects" class="subtopics">
+                            <li><input type="checkbox"> Building Machine Learning Powered Applications - Emmanuel Ameisen (20 horas)</li>
+                            <li><input type="checkbox"> Machine Learning Engineering - Andriy Burkov (20 horas)</li>
+                            <li><input type="checkbox"> Practical Deep Learning for Cloud, Mobile, and Edge - Anirudh Koul, Siddha Ganju (20 horas)</li>
+                            <li><input type="checkbox"> Applied Machine Learning - M. Gopal (20 horas)</li>
+                            <li><input type="checkbox"> TensorFlow in Practice - Laurence Moroney (20 horas)</li>
+                            <li><input type="checkbox"> Real-World Machine Learning - Henrik Brink, Joseph Richards, Mark Fetherolf (20 horas)</li>
+                            <li><input type="checkbox"> Applied Predictive Modeling - Max Kuhn, Kjell Johnson (20 horas)</li>
+                            <li><input type="checkbox"> Deep Learning Cookbook - Douwe Osinga (20 horas)</li>
+                            <li><input type="checkbox"> Python Machine Learning Projects - Lisa Tagliaferri (20 horas)</li>
+                            <li><input type="checkbox"> Machine Learning Projects for Mobile Applications - Karthikeyan NG (20 horas)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Fase 3: Transición a Inteligencia Artificial -->
+            <div class="phase">
+                <h2 onclick="toggleVisibility('phase3')">Fase 3: Transición a Inteligencia Artificial</h2>
+                <div id="phase3" class="topics">
+                    <!-- Fundamentos de Inteligencia Artificial -->
+                    <div class="topic">
+                        <h3 onclick="toggleVisibility('ai-basics')">Fundamentos de Inteligencia Artificial (50 horas)</h3>
+                        <ul id="ai-basics" class="subtopics">
+                            <li><input type="checkbox"> Artificial Intelligence: A Guide for Thinking Humans - Melanie Mitchell (10 horas)</li>
+                            <li><input type="checkbox"> Artificial Intelligence with Python - Prateek Joshi (10 horas)</li>
+                            <li><input type="checkbox"> Python Machine Learning - Sebastian Raschka, Vahid Mirjalili (10 horas)</li>
+                            <li><input type="checkbox"> AI and Machine Learning for Coders - Laurence Moroney (10 horas)</li>
+                            <li><input type="checkbox"> Applied Artificial Intelligence - Mariya Yao, Adelyn Zhou, Marlene Jia (10 horas)</li>
+                            <li><input type="checkbox"> Machine Learning: A Probabilistic Perspective - Kevin P. Murphy (20 horas)</li>
+                            <li><input type="checkbox"> Understanding Machine Learning - Shai Shalev-Shwartz, Shai Ben-David (20 horas)</li>
+                            <li><input type="checkbox"> Deep Learning - Ian Goodfellow, Yoshua Bengio, Aaron Courville (30 horas)</li>
+                            <li><input type="checkbox"> Artificial Intelligence: Foundations of Computational Agents - David L. Poole, Alan K. Mackworth (20 horas)</li>
+                            <li><input type="checkbox"> Machine Learning for Absolute Beginners - Oliver Theobald (10 horas)</li>
+                        </ul>
+                    </div>
+                    <!-- Aprendizaje por Refuerzo -->
+                    <div class="topic">
+                        <h3 onclick="toggleVisibility('reinforcement-learning')">Aprendizaje por Refuerzo (40 horas)</h3>
+                        <ul id="reinforcement-learning" class="subtopics">
+                            <li><input type="checkbox"> Reinforcement Learning: An Introduction - Richard S. Sutton, Andrew G. Barto (20 horas)</li>
+                            <li><input type="checkbox"> Deep Reinforcement Learning Hands-On - Maxim Lapan (20 horas)</li>
+                            <li><input type="checkbox"> Practical Deep Reinforcement Learning - Arūnas Liekis (20 horas)</li>
+                            <li><input type="checkbox"> Foundations of Deep Reinforcement Learning - Laura Graesser, Wah Loon Keng (20 horas)</li>
+                            <li><input type="checkbox"> Reinforcement Learning with TensorFlow - Sayon Dutta (20 horas)</li>
+                            <li><input type="checkbox"> Python Reinforcement Learning Projects - Sean Saito (20 horas)</li>
+                            <li><input type="checkbox"> Hands-On Reinforcement Learning with Python - Sudharsan Ravichandiran (20 horas)</li>
+                            <li><input type="checkbox"> Deep Reinforcement Learning in Action - Alexander Zai, Brandon Brown (20 horas)</li>
+                            <li><input type="checkbox"> Reinforcement Learning and Open AI Gym - White (20 horas)</li>
+                            <li><input type="checkbox"> Reinforcement Learning Algorithms with Python - Andrea Lonza (20 horas)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Fase 4: Integración y Proyectos Avanzados -->
+            <div class="phase">
+                <h2 onclick="toggleVisibility('phase4')">Fase 4: Integración y Proyectos Avanzados</h2>
+                <div id="phase4" class="topics">
+                    <!-- Proyectos Integradores -->
+                    <div class="topic">
+                        <h3 onclick="toggleVisibility('integration-projects')">Proyectos Integradores (60 horas)</h3>
+                        <ul id="integration-projects" class="subtopics">
+                            <li><input type="checkbox"> Building Machine Learning Powered Applications - Emmanuel Ameisen (20 horas)</li>
+                            <li><input type="checkbox"> Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow - Aurélien Géron (20 horas)</li>
+                            <li><input type="checkbox"> Applied Machine Learning - M. Gopal (20 horas)</li>
+                            <li><input type="checkbox"> Real-World Machine Learning - Henrik Brink, Joseph Richards, Mark Fetherolf (20 horas)</li>
+                            <li><input type="checkbox"> Machine Learning Projects for Mobile Applications - Karthikeyan NG (20 horas)</li>
+                            <li><input type="checkbox"> TensorFlow in Practice - Laurence Moroney (20 horas)</li>
+                            <li><input type="checkbox"> Python Machine Learning Projects - Lisa Tagliaferri (20 horas)</li>
+                            <li><input type="checkbox"> Practical Deep Learning for Cloud, Mobile, and Edge - Anirudh Koul, Siddha Ganju, Meher Kasam (20 horas)</li>
+                            <li><input type="checkbox"> Machine Learning Engineering - Andriy Burkov (20 horas)</li>
+                            <li><input type="checkbox"> Applied Predictive Modeling - Max Kuhn, Kjell Johnson (20 horas)</li>
+                        </ul>
+                    </div>
+                    <!-- Contribuir a Proyectos Open-Source -->
+                    <div class="topic">
+                        <h3 onclick="toggleVisibility('open-source')">Contribuir a Proyectos Open-Source (40 horas)</h3>
+                        <ul id="open-source" class="subtopics">
+                            <li><input type="checkbox"> Practical MLOps - Noah Gift, Alfredo Deza (20 horas)</li>
+                            <li><input type="checkbox"> Building Machine Learning Powered Applications - Emmanuel Ameisen (20 horas)</li>
+                            <li><input type="checkbox"> TensorFlow in Practice - Laurence Moroney (20 horas)</li>
+                            <li><input type="checkbox"> Deep Learning with PyTorch - Eli Stevens, Luca Antiga, Thomas Viehmann (20 horas)</li>
+                            <li><input type="checkbox"> Deep Learning with Python - François Chollet (20 horas)</li>
+                            <li><input type="checkbox"> Machine Learning Engineering - Andriy Burkov (20 horas)</li>
+                            <li><input type="checkbox"> Python Machine Learning Projects - Lisa Tagliaferri (20 horas)</li>
+                            <li><input type="checkbox"> Practical Deep Learning for Cloud, Mobile, and Edge - Anirudh Koul, Siddha Ganju, Meher Kasam (20 horas)</li>
+                            <li><input type="checkbox"> Machine Learning Projects for Mobile Applications - Karthikeyan NG (20 horas)</li>
+                            <li><input type="checkbox"> Applied Predictive Modeling - Max Kuhn, Kjell Johnson (20 horas)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Mejora de Habilidades de Programación -->
+            <div class="phase">
+                <h2 onclick="toggleVisibility('programming-skills')">Mejora de Habilidades de Program
+ación</h2>
+                <div id="programming-skills" class="topics">
+                    <!-- Programación en Python -->
+                    <div class="topic">
+                        <h3 onclick="toggleVisibility('python-skills')">Programación en Python (50 horas)</h3>
+                        <ul id="python-skills" class="subtopics">
+                            <li><input type="checkbox"> Effective Python - Brett Slatkin (10 horas)</li>
+                            <li><input type="checkbox"> Fluent Python - Luciano Ramalho (10 horas)</li>
+                            <li><input type="checkbox"> Python Tricks - Dan Bader (10 horas)</li>
+                            <li><input type="checkbox"> Clean Code in Python - Mariano Anaya (10 horas)</li>
+                            <li><input type="checkbox"> The Pragmatic Programmer - Andrew Hunt, David Thomas (10 horas)</li>
+                            <li><input type="checkbox"> Python Programming for the Absolute Beginner - Michael Dawson (10 horas)</li>
+                            <li><input type="checkbox"> Python in a Nutshell - Alex Martelli (10 horas)</li>
+                            <li><input type="checkbox"> Python for Programmers - Paul Deitel, Harvey Deitel (10 horas)</li>
+                            <li><input type="checkbox"> Mastering Python - Rick van Hattem (10 horas)</li>
+                            <li><input type="checkbox"> Python 101 - Michael Driscoll (10 horas)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Finanzas, Autoayuda y Crecimiento Personal -->
+            <div class="phase">
+                <h2 onclick="toggleVisibility('finance-self-help')">Finanzas, Autoayuda y Crecimiento Personal</h2>
+                <div id="finance-self-help" class="topics">
+                    <!-- Finanzas -->
+                    <div class="topic">
+                        <h3 onclick="toggleVisibility('finance')">Finanzas (50 horas)</h3>
+                        <ul id="finance" class="subtopics">
+                            <li><input type="checkbox"> The Intelligent Investor - Benjamin Graham (10 horas)</li>
+                            <li><input type="checkbox"> A Random Walk Down Wall Street - Burton G. Malkiel (10 horas)</li>
+                            <li><input type="checkbox"> Rich Dad Poor Dad - Robert T. Kiyosaki (10 horas)</li>
+                            <li><input type="checkbox"> Principles - Ray Dalio (10 horas)</li>
+                            <li><input type="checkbox"> The Little Book of Common Sense Investing - John C. Bogle (10 horas)</li>
+                            <li><input type="checkbox"> Common Stocks and Uncommon Profits - Philip Fisher (10 horas)</li>
+                            <li><input type="checkbox"> You Can Be a Stock Market Genius - Joel Greenblatt (10 horas)</li>
+                            <li><input type="checkbox"> The Millionaire Next Door - Thomas J. Stanley, William D. Danko (10 horas)</li>
+                            <li><input type="checkbox"> The Richest Man in Babylon - George S. Clason (10 horas)</li>
+                            <li><input type="checkbox"> The Total Money Makeover - Dave Ramsey (10 horas)</li>
+                        </ul>
+                    </div>
+                    <!-- Autoayuda y Crecimiento Personal -->
+                    <div class="topic">
+                        <h3 onclick="toggleVisibility('self-help')">Autoayuda y Crecimiento Personal (50 horas)</h3>
+                        <ul id="self-help" class="subtopics">
+                            <li><input type="checkbox"> Atomic Habits - James Clear (10 horas)</li>
+                            <li><input type="checkbox"> The Power of Habit - Charles Duhigg (10 horas)</li>
+                            <li><input type="checkbox"> How to Win Friends and Influence People - Dale Carnegie (10 horas)</li>
+                            <li><input type="checkbox"> The 7 Habits of Highly Effective People - Stephen R. Covey (10 horas)</li>
+                            <li><input type="checkbox"> Mindset: The New Psychology of Success - Carol S. Dweck (10 horas)</li>
+                            <li><input type="checkbox"> Think and Grow Rich - Napoleon Hill (10 horas)</li>
+                            <li><input type="checkbox"> Awaken the Giant Within - Tony Robbins (10 horas)</li>
+                            <li><input type="checkbox"> The Subtle Art of Not Giving a F*ck - Mark Manson (10 horas)</li>
+                            <li><input type="checkbox"> The Power of Now - Eckhart Tolle (10 horas)</li>
+                            <li><input type="checkbox"> Grit: The Power of Passion and Perseverance - Angela Duckworth (10 horas)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Trading y Criptomonedas -->
+            <div class="phase">
+                <h2 onclick="toggleVisibility('trading-crypto')">Trading y Criptomonedas</h2>
+                <div id="trading-crypto" class="topics">
+                    <!-- Trading -->
+                    <div class="topic">
+                        <h3 onclick="toggleVisibility('trading')">Trading (50 horas)</h3>
+                        <ul id="trading" class="subtopics">
+                            <li><input type="checkbox"> The Intelligent Investor - Benjamin Graham (10 horas)</li>
+                            <li><input type="checkbox"> A Beginner's Guide to the Stock Market - Matthew R. Kratter (10 horas)</li>
+                            <li><input type="checkbox"> Day Trading and Swing Trading the Currency Market - Kathy Lien (10 horas)</li>
+                            <li><input type="checkbox"> Trading for a Living - Dr. Alexander Elder (10 horas)</li>
+                            <li><input type="checkbox"> The Little Book of Trading - Michael W. Covel (10 horas)</li>
+                            <li><input type="checkbox"> Market Wizards - Jack D. Schwager (10 horas)</li>
+                            <li><input type="checkbox"> Trading in the Zone - Mark Douglas (10 horas)</li>
+                            <li><input type="checkbox"> How to Day Trade for a Living - Andrew Aziz (10 horas)</li>
+                            <li><input type="checkbox"> Technical Analysis of the Financial Markets - John J. Murphy (10 horas)</li>
+                            <li><input type="checkbox"> Japanese Candlestick Charting Techniques - Steve Nison (10 horas)</li>
+                        </ul>
+                    </div>
+                    <!-- Criptomonedas -->
+                    <div class="topic">
+                        <h3 onclick="toggleVisibility('crypto')">Criptomonedas (50 horas)</h3>
+                        <ul id="crypto" class="subtopics">
+                            <li><input type="checkbox"> Mastering Bitcoin - Andreas M. Antonopoulos (10 horas)</li>
+                            <li><input type="checkbox"> Blockchain Basics - Daniel Drescher (10 horas)</li>
+                            <li><input type="checkbox"> The Bitcoin Standard - Saifedean Ammous (10 horas)</li>
+                            <li><input type="checkbox"> Cryptocurrency - Abraham K. White (10 horas)</li>
+                            <li><input type="checkbox"> The Age of Cryptocurrency - Paul Vigna, Michael J. Casey (10 horas)</li>
+                            <li><input type="checkbox"> Mastering Blockchain - Imran Bashir (10 horas)</li>
+                            <li><input type="checkbox"> The Basics of Bitcoins and Blockchains - Antony Lewis (10 horas)</li>
+                            <li><input type="checkbox"> Bitcoin and Cryptocurrency Technologies - Arvind Narayanan, Joseph Bonneau, Edward Felten, Andrew Miller, Steven Goldfeder (10 horas)</li>
+                            <li><input type="checkbox"> Blockchain Revolution - Don Tapscott, Alex Tapscott (10 horas)</li>
+                            <li><input type="checkbox"> Cryptocurrency Investing For Dummies - Kiana Danial (10 horas)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
